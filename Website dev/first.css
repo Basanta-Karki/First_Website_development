@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 70%;
+    display: flex;
+    padding: 43px;
+    
+}
+.menu li{
+    
+    padding-right: 39px;
+    padding-left: 20px;
+}
+
+.menu li a{
+    width: 150px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    transition-duration: 0.6s;
+    
+}
+.menu li a:hover{
+    color: #0eba0ed1;
+}
+.menu li a.third3{
+    width: 191px;
+}
+
+.top1{
+    width: 200px;
+    height: 50px;
+    padding-left: 919px;
+    padding-top: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.mustangimg img{
+    height: 351px;
+    width: 521px;
+}
+
+.firstsec{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 82%;
+
+}
+.top{
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.down{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.learn{
+    padding-top: 4px;
+    padding-left: 44px;
+    padding-right: 65px;
+}
+
+.Secondsec{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 82%;
+    flex-direction: row-reverse;
+
+}
+.pokharaimg img{
+    height: 351px;
+    width: 521px;
+}
+.lst{
+    padding-left: 92%;
+    
+}
+.last{
+    width: 120px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+   
+    
+}
+.last:hover{
+    background-color: green;
+    color: white;
+}
+.right{
+    padding-left: 10px;
+}
+.lastbtn a{
+    padding-bottom: 100px;
+    
+}
